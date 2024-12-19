@@ -1,7 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" th:fragment="layout (title, content)" xmlns:th="http://www.thymeleaf.org">
+<html th:fragment="layout(title, content, styles, scripts, breadcrumbs)" lang="en">
 <head>
-    <title th:text="${title}">Layout Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title th:text="${title}">DinePoint</title>
+
+    <link rel="stylesheet" th:href="@{/styles/bootstrap.min.css}" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--    <link rel="stylesheet" th:href="@{/styles/all.css}">-->
+
 </head>
-<body></body>
+<body>
+
+<header>...</header>
+<nav>...</nav>
+
+<div th:replace="~{::section}">
+
+</div>
+
+<footer>...</footer>
+
+</body>
 </html>

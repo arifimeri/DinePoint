@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html lang="en" th:with="pageTitle=${pageTitle}" th:replace="~{ fragments/layout :: layout(pageTitle, ~{::section})}">
+
+    <section th:fragmetnt="section"><h1 th:text="${pageTitle}">Home</h1></section>
+</html>
