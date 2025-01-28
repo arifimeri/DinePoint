@@ -781,10 +781,10 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a th:href="@{index}">Home</a>
-                            <a th:href="@{about}">About</a>
-                            <a th:href="@{booking}">Booking</a>
-                            <a th:href="@{menu}">FQAs</a>
+                            <a th:href="@{index.html}">Home</a>
+                            <a th:href="@{about.html}">About</a>
+                            <a th:href="@{booking.html}">Booking</a>
+                            <a th:href="@{menu.html}">FQAs</a>
                         </div>
                     </div>
                 </div>
