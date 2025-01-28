@@ -1,0 +1,7 @@
+package org.example.dinepoint.models;
+
+public enum Category {
+    SOUP,
+    SALAD,
+    
+}
